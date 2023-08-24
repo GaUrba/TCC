@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DeLuxe Store</title>
+    <link rel="icon" href="imagens/icon.jpeg">
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div>
+      <img class="elgato" src="imagens/gat22.png">
+    </div>
+    <div class="menu">
+      <a class="txt-home" style="font-weight: bold;" href="index.php">HOME</a>
+      <a class="txt-home" href="sac.html">SAC</a>
+      <a class="txt-home" href="store.html">STORE</a>
+<div class="dropdown" style="float:right;">
+  <button class="dropbtn">Usuario</button>
+    <div class="dropdown-content">
+      <a href="cadastro.php">Cadastrar</a>
+      <a href="login.php">Entrar</a>
+  </div>
+</div>
+    </div>
+
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Digite o nome do produto aqui.."
+        />
+        <button id="search" style="font-size: medium; padding: 10px;">Buscar</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('Todos')">
+          Todos
+        </button>
+        <button class="button-value" onclick="filterProduct('Jogos')">
+          Jogos
+        </button>
+        <button class="button-value" onclick="filterProduct('Fones')">
+          Fones
+        </button>
+        <button class="button-value" onclick="filterProduct('Video-Game')">
+          Video-Game
+        </button>
+        <button class="button-value" onclick="filterProduct('Teclado')">
+          Teclado
+        </button>
+        <button class="button-value" onclick="filterProduct('Mouse')">
+          Mouse
+        </button>
+      </div>
+
+    <div class="wrapper2">
+      <div id="products"></div>
+    </div>
+
+</div>
+
+<div class="rodape"> 
+  <div class="linha">
+    <div class="coluna1">
+      <div class="rdp-ds">DeLuxe Store</div> 
+      <div class="rdp-frase">A melhor para o seu bolso</div>
+    </div>
+
+<br>
+
+    <!--<div class="coluna2">
+      <div class="rdp-frase">Contate nossa equipe pelo email:</div><div class="rdp-email">deluxetcc@gmail.com</div>
+    </div>-->
+
+  </div>
+</div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>

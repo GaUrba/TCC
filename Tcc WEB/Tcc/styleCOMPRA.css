@@ -1,0 +1,93 @@
+.desc {
+	color:;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.container-prod-desc {
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 30px;
+}
+
+.container-prod-inf{
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 50px;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	background-color: #495057;
+	color: white;
+	font-weight: bold;
+	padding: 15px;
+}
+
+.container-prod-det{
+	margin-left: 250px;
+	margin-right: 250px;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	background-color: #f8f9fa;
+	font-weight: bold;
+	padding: 15px;
+}
+
+.container-prod-button {
+	float: right;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 30px;
+}
+
+.container-prod-baixo{
+	color: ;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 145px;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.container-prod-baixo a{
+	text-decoration: none;
+	color: #495057;
+}
+
+#qtd {
+	width: 100px;
+}
+
+.rowMOD {
+
+}
+
+.rodape {
+      background-color: #dee2e6;
+      color: black;
+      opacity: 0.9;
+      padding-top: 35px;
+      padding-left: 50px;
+      padding-bottom: 35px;
+    }
+
+    .rdp-ds {
+      color: #343a40;
+      font-weight: bold;
+    }
+
+    .rdp-frase {
+      color: #868e96;
+      font-size: medium;
+      float: left;
+      margin-right: 5px;
+    } 
+
+    .rdp-email {
+      color: blue;
+      font-size: medium;
+    }

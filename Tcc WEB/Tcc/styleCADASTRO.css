@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bodyDISC {
+    background: white;
+    font-family: Poppins;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    border: 0;
+}
+
+.containerDISC {
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 1px;
+    border: 2px solid white;
+    width: 450px;
+    height: 100%;
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.headerDISC {
+    padding: 20px 30px;
+}
+
+.headerDISC {
+    font-weight: 600;
+    color: #212529;
+    font-size: 20px;
+}
+
+.formDISC {
+    padding: 0 40px 30px;
+}
+
+.form-controlDISC {
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.form-controlDISC label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #868e96;
+}
+
+.form-controlDISC input {
+    border: 2px solid #3E445B;
+    border-radius: 1px;
+    outline: 0;
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-controlDISC.success input {
+    border: 3px solid #4ECA64;
+}
+
+.form-controlDISC.error input {
+    border: 3px solid #DB5A5A;
+}
+
+.form-controlDISC.error i.img-error {
+    visibility: visible;
+}
+
+.form-controlDISC.success i.img-success {
+    visibility: visible;
+}
+
+.form-controlDISC.error small{
+    color: #DB5A5A;
+    visibility: visible;
+}
+
+.form-controlDISC i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-controlDISC small {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+
+}
+
+.formDISC button {
+    background-color: white;
+    border-radius: 1px;
+    color: black;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.formDISC button:hover {
+    background-color: #343a40;
+    color: white;
+    transition: 0.3s;
+}
+
+    .rodape {
+      background-color: #dee2e6;
+      color: black;
+      opacity: 0.9;
+      padding-top: 35px;
+      padding-left: 50px;
+      padding-bottom: 35px;
+    }
+
+    .rdp-ds {
+      color: #343a40;
+      font-weight: bold;
+    }
+
+    .rdp-frase {
+      color: #868e96;
+      font-size: medium;
+      float: left;
+      margin-right: 5px;
+    } 
+
+    .rdp-email {
+      color: blue;
+      font-size: medium;
+    }
